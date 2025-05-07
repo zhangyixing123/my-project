@@ -4,6 +4,7 @@ import pxtorem from 'postcss-pxtorem'
 import autoprefixer from 'autoprefixer'
 
 export default defineConfig({
+  base: '/my-project/',
   plugins: [vue()],
   css: {
     postcss: {
